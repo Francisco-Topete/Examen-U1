@@ -1,0 +1,141 @@
+#navBarra
+{
+    padding-bottom: 0px; 
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color:lightgray; 
+    max-width:95vw;
+}
+
+#navLogo
+{
+    font-size: 170%;
+    font-weight: bolder;
+    font-family: Roboto;
+    color: black;
+}
+
+.link
+{
+    font-size: 130%;
+    text-decoration:none;
+    font-family: Roboto;
+    font-weight:lighter;
+    color: black
+}
+
+.icono
+{
+    font-size:210%;
+    color: rgb(85,33,51);
+}
+
+.mensaje
+{
+    resize: none;
+}
+
+.boton
+{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: white;
+    background-color: rgb(85,33,51);
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.label
+{
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.textbox
+{    
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 100%;
+}
+
+.titulo
+{
+    color: black;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.datos
+{
+    line-height: 115%;
+    color: black;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.columna-2
+{
+    height: 35%;
+}
+
+.altura-mapa
+{
+    height: 250px;
+}
+
+@media screen and (min-width: 576px) 
+{
+    #navLogo
+    {
+        font-size: 225%;
+        font-weight: bolder;
+        font-family: Roboto;
+        color: black;
+    }
+    
+    .link
+    {
+        font-size: 180%;
+        text-decoration:none;
+        font-family: Roboto;
+        font-weight:lighter;
+        color: black
+    }
+    
+    .icono
+    {
+        font-size:325%;
+        color: rgb(85,33,51);
+    }
+}
+
+@media screen and (min-width: 572px) 
+{
+    .altura-mapa
+    {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+    .altura-mapa
+    {
+        height: 305px;
+    }
+}
+
+@media screen and (min-width: 992px) 
+{
+    .altura-mapa
+    {
+        height: 290px;
+    }
+}
+

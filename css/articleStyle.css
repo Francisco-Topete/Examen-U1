@@ -1,0 +1,180 @@
+html
+{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body
+{
+    height: 100vh;
+}
+
+.pagina
+{
+    height: 135%;
+}
+
+#navBarra
+{
+    padding-bottom: 0px; 
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color:lightgray; 
+    max-width:95vw;
+}
+
+#navLogo
+{
+    font-size: 170%;
+    font-weight: bolder;
+    font-family: Roboto;
+    color: black;
+}
+
+.link
+{
+    font-size: 130%;
+    text-decoration:none;
+    font-family: Roboto;
+    font-weight:lighter;
+    color: black
+}
+
+.icono
+{
+    font-size:210%;
+    color: rgb(85,33,51);
+}
+
+.altura
+{
+    height: 88.5%;
+}
+
+.titulo-articulo
+{
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.cuerpo-articulo
+{
+    color: black;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.imagen-articulo
+{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.articulo
+{
+    width:100%;
+}
+
+@media screen and (min-width: 576px) 
+{
+    #navLogo
+    {
+        font-size: 225%;
+        font-weight: bolder;
+        font-family: Roboto;
+        color: black;
+    }
+    
+    .link
+    {
+        font-size: 180%;
+        text-decoration:none;
+        font-family: Roboto;
+        font-weight:lighter;
+        color: black
+    }
+    
+    .icono
+    {
+        font-size:325%;
+        color: rgb(85,33,51);
+    }
+
+    .titulo-articulo
+    {
+        font-size: 26px;
+        font-family: Roboto;
+        font-weight: 100;
+    }
+
+    .cuerpo-articulo
+    {
+        font-size: 18px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+    .titulo-articulo
+    {
+        font-size: 15px;
+        font-family: Roboto;
+        font-weight: 100;
+    }
+
+    .cuerpo-articulo
+    {
+        font-size: 12px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+
+    .imagen-articulo
+    {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 992px) 
+{
+    .titulo-articulo
+    {
+        font-size: 21px;
+        font-family: Roboto;
+        font-weight: 100;
+    }
+
+    .cuerpo-articulo
+    {
+        font-size: 15px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1200px) 
+{
+    .titulo-articulo
+    {
+        font-size: 26px;
+        font-family: Roboto;
+        font-weight: 100;
+    }
+
+    .cuerpo-articulo
+    {
+        font-size: 18px;
+        color: black;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+}

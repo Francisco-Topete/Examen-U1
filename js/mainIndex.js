@@ -1,0 +1,1 @@
+var timer = setTimeout(function(){window.location="home.html"}, 7000);

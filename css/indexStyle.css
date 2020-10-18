@@ -1,0 +1,134 @@
+html
+{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body
+{
+    background-image:url("../img/lens-home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+@keyframes home
+{
+    0%{opacity:0;}
+    30%{opacity:1;}
+    50%{opacity:1;}
+    95%{opacity:0;}
+}
+
+#home
+{
+    font-size: 235%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: Roboto;
+    opacity:0;
+
+    animation-name: home;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+}
+
+#home-sub
+{
+    font-size: 110%;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto;
+    opacity:0;
+
+    animation-name: home;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+}
+
+@media screen and (min-width: 567px) 
+{
+    #home
+    {
+        font-size: 310%;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-family: Roboto;
+    }
+    
+    #home-sub
+    {
+        font-size: 120%;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-family: Roboto;
+    }
+}
+
+@media screen and (min-width: 768px) 
+{
+    #home
+    {
+        font-size: 310%;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-family: Roboto;
+    }
+    
+    #home-sub
+    {
+        font-size: 120%;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-family: Roboto;
+    }
+}
+
+@media screen and (min-width: 992px) 
+{
+    #home
+    {
+        font-size: 360%;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-family: Roboto;
+    }
+    
+    #home-sub
+    {
+        font-size: 140%;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-family: Roboto;
+    }
+}
+
+@media screen and (min-width: 1200px) 
+{
+    #home
+    {
+        font-size: 410%;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-family: Roboto;
+    }
+    
+    #home-sub
+    {
+        font-size: 180%;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        font-family: Roboto;
+    }
+}
